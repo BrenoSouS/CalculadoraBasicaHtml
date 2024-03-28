@@ -118,7 +118,7 @@ function apagarTudo(){
     
 }
 function calculo(){
-    var StrToNum = visor.outerText;
+    var StrToNum = visor.outerText
     var resultado = eval(StrToNum)
     visor.innerText = resultado
 
