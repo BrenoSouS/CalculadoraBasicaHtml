@@ -1,6 +1,6 @@
 # CalculadoraBasicaHtml
 O objetivo desse projeto é a criação de uma calculadora basica utilizando HTML , CSS e JavaScript.
-como o proprosito é ser um projeto basico de estudo não existem preocupações com segurança por esse motivo foi utilizada a função eval() em larga escala.
+como o proprosito é ser um projeto basico de estudo não existem preocupações com segurança por esse motivo foi utilizada a função eval() como base dos calculos.
 
 - No arquivo Html foi feita uma divisao basica da pagina com um header onde se encontram o titulo da pagina e um paragrafo destinado a ser o "display" da calculadora onde irão aparecer os numeros, e uma div onde os inputs estão distribuidos.
 - No arquivo js ,foram feitos uma função para cada botão onde será testado se no display esta escrito undefined , caso esteja é chamado ma função para limpar a tela e então digitar o numero.
