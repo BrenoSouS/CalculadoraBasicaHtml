@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta class="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Calculadora</h1>
+    </br>
+        <p id="Display">
+
+           <!-- tela da calculadora -->
+            
+        </p>
+    </br>
+    </header>
+
+    
+    <div id="numbers">
+       <!--  botoes numericos -->
+        <input type="button" class="number" id="1" value="1"  onclick = "tecla()">
+        <input type="button" class="number" id="2" value="2"  onclick ="tecla2()">
+        <input type="button" class="number" id="3" value="3"  onclick ="tecla3()">
+        <input type="button" class="number2" id="4" value="4" onclick ="tecla4()">
+        <input type="button" class="number2" id="5" value="5" onclick ="tecla5()">
+        <input type="button" class="number2" id="6" value="6" onclick ="tecla6()">
+        <input type="button" class="number3" id="7" value="7" onclick ="tecla7()">
+        <input type="button" class="number3" id="8" value="8" onclick ="tecla8()">
+        <input type="button" class="number3" id="9" value="9" onclick ="tecla9()">
+        <input type="button" class="number4" id="0" value="0" onclick ="tecla0()">
+    
+        <!-- botoes de operação -->
+        <input type="button" class = "number5" value="+" id="+" onclick="operador()">
+        <input type="button" class = "number5" value="-" id="-" onclick="operador2()">
+        <input type="button" class = "number5" value="/" id="/" onclick="operador3()">
+        <input type="button" class = "number5" value="*" id="*" onclick="operador4()">
+        <input type="button" class = "igual" id = "ativar" value="Calcular" onclick="calculo()">
+        
+        <!-- botoes de limpeza de display -->
+        <button type="button" value="Apagar" id="apagar" onclick="apagar()">
+            <img src="backspace-icone.png" alt="">
+        </button>
+        <button type="button"  id="Apagar2" onclick="apagarTudo()">
+            <img src="lixeiraicon.png" alt="">
+        </button>
+        
+        
+        
+        
+    </div>
+
+    
+    <footer>
+        <h3>&copy Testes</h3>
+    </footer>
+
+    
+</body>
+<script src="programa.js"></script>
+</html>
